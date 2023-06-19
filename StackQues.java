@@ -199,14 +199,14 @@ public class StackQues {
         // }
         // System.out.println();
 
-        // String str = "({})[]";
-        // System.out.println(isValid(str));
+        String str = "({})[]";
+        System.out.println(isValid(str));
 
         // String str = "((a+b))"; //true
         // String str2 = "(a-b)"; // false
         // System.out.println(isDuplicate(str2));
 
-        int arr[] = {2, 1, 5, 6, 2, 3};
-        maxArea(arr);
+        // int arr[] = {2, 1, 5, 6, 2, 3};
+        // maxArea(arr);
     }
 }

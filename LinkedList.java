@@ -367,12 +367,12 @@ public class LinkedList {
         // System.out.println(isCycle());
         ll.addFirst(1);
         ll.addFirst(2);
-        ll.addFirst(3);
-        ll.addFirst(4);
         ll.addFirst(5);
+        ll.addFirst(4);
+        ll.addFirst(3);
         ll.print();
-        //ll.head = ll.mergeSort(ll.head);
-        ll.zigZag();
+        ll.head = ll.mergeSort(ll.head);
+        // ll.zigZag();
         ll.print();        
     }
 }
